@@ -1,0 +1,99 @@
+body{
+    background-color: #ebebeb ; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 ;
+    padding: 0.5rem ;
+    box-sizing: border-box;
+}
+
+header, .header-info{
+    padding: 1.5rem;
+    background-color: #EAC926 ;
+    border-radius: 2rem;
+}
+
+.bvar{
+    background-color: #dddada;
+    margin: 1.5rem 1.5rem 0rem 1.5rem ;
+    width: 35%;
+}
+
+.lupa{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.header-link{
+    text-decoration:none;
+    color: black;
+}
+
+main{
+    background-color: #EAC926 ;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.titulares{
+    text-align: center;
+    font-size: 1.5rem ;
+    padding: 1rem;
+}
+
+#un-producto{
+    width: 60% ;
+    height: 60% ;
+    display:block;
+    margin:auto; 
+    border: solid 0.25rem black;
+}
+
+h5{
+    padding: 1rem;
+}
+
+.precios{
+    font-size: 1.125rem ; /*18px*/
+}
+
+.lista{
+    list-style: none;
+}
+
+.descuentos{
+font-size: 16px;
+}
+
+.precios, .descuentos, h5 {
+    text-align: center;
+    display: block;
+}
+
+.cuerpo-de-texto{
+    font-size: 0.75rem ; /*12px*/
+}
+
+footer{
+    background-color: #ebebeb;
+    padding: 1% ;
+    border-radius: 2rem;
+    box-sizing: border-box;
+}
+
+.footer-front{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+footer .fa-align-justify {
+    background-color: #ebebeb;;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.footer-icon{
+    padding-top: 2rem;
+}
+
