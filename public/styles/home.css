@@ -10,22 +10,38 @@ body{
 }
 
 header, .header-info{
-    padding: 1rem;
+    padding:  1rem 1rem 0rem 1rem;
     background-color: #EAC926 ;
     border-radius: 2rem;
 }
 
-.bvar{
-    background-color: #dddada;
-    margin: 1.5rem 0rem 0rem 1.5rem ;
-    width: 35%;
-    display: inline;
+.page-info  h2{
+    text-align: center;
 }
 
-.lupa{
-    width: 1.5rem;
-    height: 1.5rem;
-    display: inline;
+ul {
+    padding-left: 0;
+    padding-bottom: 2rem;
+}
+
+.logo{
+    width: 50vw;
+}
+
+.burguer.container{
+    text-align: center;
+    padding: 1rem;
+}
+
+#burger{
+    background-color: #03264c;
+    padding: 1rem ;
+    margin: auto;
+    border-radius: 1rem;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    max-width: 3rem;
 }
 
 #credit-card{
@@ -35,18 +51,6 @@ header, .header-info{
 .header-link{
     text-decoration:none;
     color: black;
-}
-
-
-
-#burger{
-    background-color: #5d7caa;
-    padding: 1rem ;
-    margin: auto;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    max-width: 8%;
 }
 
 main{

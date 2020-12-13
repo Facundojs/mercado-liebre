@@ -12,19 +12,23 @@
     <link rel="stylesheet" href="/styles/normalize.css">
     <link href = "https://fonts.googleapis.com/css2? family = Fira + Sans: wght @ 200 & display = intercambiar "rel ="hoja de estilo ">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Inconsolata:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cac22ebe42.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        
-        <section>
-            <div>
-                <img src="/images/logo-mercado-liebre.svg" alt="">
-            </div>
-            <div>
-                <input type="search" class="bvar" placeholder="Búsqueda">
-                <input type="button" class="lupa" placeholder="🔍">
-            </div>
-            <div id="credit-card" class="header-info">Comprá en cuotas y sin tarjeta de crédito<i class="fas fa-hand-holding-usd"></i></div>
+        <div class="page-info" >
+            <img src="/images/logo-mercado-liebre.svg" class="logo">
+            <h2 class="cuotas" >
+                Comprá en cuotas y sin tarjeta de crédito
+                <i class="fas fa-hand-holding-usd"></i>
+            </h2>
+        </div>
+
+        <div class="burger-container">
+            <i id="burger" class="fa fa-bars burger"></i>    
+        </div>
+
+        <nav>
             <ul class="lista" class="cuerpo-de-texto"> 
                 <li><a class="header-link" href="#">Ofertas</a></li>
                 <li><a class="header-link" href="#">Tiendas oficiales</a></li>
@@ -35,13 +39,9 @@
             <ul class="lista" class="cuerpo-de-texto">
                 <li><a class="header-link" href="#">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
                 <li><a class="header-link" href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
-                <li><a class="header-link" href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>     
+                <li><a class="header-link" href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
-            <div class="burger-container">
-
-                <i id="burger" class="fa fa-bars burger"></i>    
-            </div>
-        </section>
+        </nav>
     </header>
 <main>
     
