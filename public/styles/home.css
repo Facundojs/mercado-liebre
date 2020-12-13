@@ -1,32 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ebebeb ; 
     font-family: 'Roboto', sans-serif;
     font-weight: 300 ;
     padding: 0.5rem ;
-    box-sizing: border-box;
 }
 
 header, .header-info{
-    padding: 1.5rem;
+    padding: 1rem;
     background-color: #EAC926 ;
     border-radius: 2rem;
 }
 
 .bvar{
     background-color: #dddada;
-    margin: 1.5rem 1.5rem 0rem 1.5rem ;
+    margin: 1.5rem 0rem 0rem 1.5rem ;
     width: 35%;
+    display: inline;
 }
 
 .lupa{
     width: 1.5rem;
     height: 1.5rem;
-    margin-left: 1.5rem;
+    display: inline;
+}
+
+#credit-card{
+    text-align: center;
 }
 
 .header-link{
     text-decoration:none;
     color: black;
+}
+
+
+
+#burger{
+    background-color: #5d7caa;
+    padding: 1rem ;
+    margin: auto;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    max-width: 8%;
 }
 
 main{
