@@ -25,7 +25,7 @@ body{
 }
 
 header{
-    background-color:#fff159 ;
+    background-color:#EAC926 ;
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,7 +33,7 @@ header{
 }
 
 header .aligner-container{
-    background-color:#fff159 ;
+    background-color:#EAC926 ;
     width: 100%;
     max-width: 1200px;
     max-height: 250px;
@@ -131,8 +131,7 @@ main{
 
 .hero-banner{
     width: 100% ;
-    bottom: -1rem;
-    margin-top: 205px;
+    margin-top: 250px;
 }
 
 main .aligner-container{
@@ -345,9 +344,11 @@ footer .fa-align-justify {
     .cuotas{
         display: inline;
     }
-
     #burger {
         display: none ;
+    }
+    .hero-banner{
+        margin-top: 200px;
     }
 }
 
@@ -357,6 +358,9 @@ footer .fa-align-justify {
     }
     main{
         margin: 0 ;
+    }
+    .hero-banner{
+        margin-top: 190px
     }
     .titulares{
         width: 100%;
