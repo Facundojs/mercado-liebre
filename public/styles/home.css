@@ -42,7 +42,7 @@ header .aligner-container{
 }
 
 .aligner-container{
-    border: black 5px solid;
+    /*border: black 5px solid*/
     margin: auto;
     width: 100vh;
     max-width: 1200px;
