@@ -332,6 +332,7 @@ footer .fa-align-justify {
     padding-top: 2rem;
     transition: all 1s;
     width: 100%;
+    text-align: center;
 }
 
 .footer-icon:hover{
